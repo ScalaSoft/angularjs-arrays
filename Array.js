@@ -194,6 +194,22 @@ angular.module('ng').service('$array', function(){
               }
 
               return retArr;
+            },
+            object_to_array: function array_values(object) {
+              //var myObj = {
+              //    1: [1, 2, 3],
+              //    2: [4, 5, 6]
+              //};
+              
+              // object_to_array(myObj);
+              
+              // console.log(array);
+
+              // Output:
+
+              // [[1, 2, 3], [4, 5, 6]]
+
+              return $.map(myObj, function(value, index) { return [value]; });
             }
     };
 });

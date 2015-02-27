@@ -1,0 +1,5 @@
+{ "name": "php-to-js",
+  "description": "JS implementations of PHP functions",
+  "version": "0.0.5",
+  "main": "Array.js"
+}
